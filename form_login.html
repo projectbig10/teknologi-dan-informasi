@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registrasi</title>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="bootstrap/js/jquery.js" srcipt type="text/javasript"></script>
+        <script src="bootstrap/js/bootstrap.js" script type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1><b>IT PROGRAMMER GO</b></h1>
+                <p><h2>Assalamualikum, selamat anda memasuki blog yang tepat, jika Anda berkenan ingin mempelajari pemrograman
+                    serta Anda dapat memilih ebook secara gratis  
+                   silahkan join pada form di bawah ini
+                </h2></p>
+            </div>
+        </div>
+        <div class="alert alert-warning">
+            <a href="#" class="close data-dismiss"="alert" aria-label="close">&times;</a>
+            Silahkan Anda login sebelum web ini di tutup
+        </div>
+        <br/>
+        <form action="form_login.html" method="get">
+            Nama: <input type="text" name="nama" value="Nama Kamu"/>
+            <br/>
+            Password: <input type="password" name="password"/>
+            <br/>
+            Jenis kelamin:
+            <input type="radio" name="jenis kelamin" value="Laki-laki" checked/>Laki-laki
+            <input type="radio" name="jenis kelamin" value="Perempuan"/>Perempuan
+            <br/>
+            Hobi: <input type="checkbox" name="hobi_berenang"/>berenang
+            <input type="checkbox" name="hobi_bersepeda"/> Bersepeda
+            <input type="checkbox" name="hobi_jelajah"/> Petualang
+            <input type="checkbox" name="hobi_ngoding"/> Coding
+            <input type="checkbox" name="hobi_membaca"/> Membaca
+            <input type="checkbox" name="hobi_menulis"/> Menulis
+            <br/>
+            Asal kota: 
+            <select name="asal_kota">
+                <option value="Kota Jakarta">Probolinggo</option>
+                <option>Malang</option>
+                <option value="Kota Semarang" selected>Surabaya</option>
+            </select>
+            <br/>
+            Komentar Anda:
+            <textarea name="komentar" rows="5" colsp="20">
+                Silahkan katakan isi hati anda sesuai selera
+            </textarea>
+            <br/>
+            <input type="button"><type class="btn btn-primary btn-lg">prosesing</a>
+                </type>
+        </form>
+    </body>
+</html>
